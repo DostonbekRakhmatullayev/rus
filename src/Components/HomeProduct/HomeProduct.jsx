@@ -241,7 +241,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>0.59₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>22₱ (RUB)</strong>
                 </p>
               </div>
             </li>
@@ -371,7 +371,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>55,06₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>44₱ (RUB)</strong>
                 </p>
               </div>
             </li>
