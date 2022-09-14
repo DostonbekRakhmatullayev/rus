@@ -1,0 +1,36 @@
+.footer{
+    padding: 20px 0;
+    background-color: yellow;
+    &__wrapper{
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+    }
+    &__item{
+        margin-right: 30px;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+    &__link{
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000;
+    }
+    &__icon{
+        margin-right: 10px;
+        width: 35px;
+    }
+    &__buttom{
+        padding-top: 15px;
+        border-top: 1px solid #000;
+        text-align: center;
+    }
+}

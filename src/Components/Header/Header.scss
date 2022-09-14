@@ -1,0 +1,114 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 8;
+  padding: 10px 0;
+  box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.8);
+  background-color: yellow;
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    color: #191919;
+    text-shadow: 2px 2px 5px rgb(90, 89, 89);
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+    display: inline-block;
+    padding: 10px 16px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000;
+    border-bottom: 2px solid transparent;
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
+  &__item {
+    &:last-child a {
+      margin-left: 15px;
+      padding: 4px 12px;
+      font-weight: 700;
+      background-color: dodgerblue;
+      border: 2px solid dodgerblue;
+      border-radius: 5px;
+      color: #fff;
+      transition: 0.5s;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+    }
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+  &__burger {
+    margin-left: 20px;
+    display: none;
+    background-color: transparent;
+    border: none;
+  }
+  &__modal {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    position: fixed;
+    z-index: 8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    &--active {
+      display: block;
+    }
+    &--list {
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &--item a {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    &--close {
+      padding: 10px;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      font-size: 18px;
+      font-weight: 700;
+      color: red;
+      background-color: transparent;
+      border: 1px solid red;
+      box-shadow: 0 0 4px 4px red;
+    }
+  }
+}
+@media screen and (max-width: 769px) {
+  .header {
+    &__item {
+      display: none;
+      &:last-child {
+        display: inline-block;
+      }
+    }
+    &__burger {
+      display: inline-block;
+    }
+  }
+}
