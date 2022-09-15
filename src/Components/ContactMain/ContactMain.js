@@ -31,68 +31,68 @@ function ContactMain() {
         <div className="container">
           <div className="contact__wrapper">
             <div className="contact__box">
-              <h1 className="contact__title">Get In Touch</h1>
+              <h1 className="contact__title">Связаться</h1>
               <form onSubmit={formFunc} className="contact__form">
                 <div className="contact__subbox">
                   <label className="contact__label">
-                    <p className="contact__text">First name</p>
+                    <p className="contact__text">Имя</p>
                     <input
                       className="contact__input"
                       type="text"
                       name="first_name"
-                      placeholder="Your firstname"
+                      placeholder="Твое имя"
                       required
                     />
                   </label>
                   <label className="contact__label">
-                    <p className="contact__text">Last name</p>
+                    <p className="contact__text">Фамилия</p>
                     <input
                       className="contact__input"
                       type="text"
                       name="last_name"
-                      placeholder="Your lastname"
+                      placeholder="Твоя фамилия"
                       required
                     />
                   </label>
                 </div>
                 <label className="contact__label">
-                  <p className="contact__text">Email</p>
+                  <p className="contact__text">Эл. адрес</p>
                   <input
                     className="contact__input"
                     type="email"
                     name="email"
-                    placeholder="Your email address"
+                    placeholder="Ваша электронная почта"
                   />
                 </label>
                 <label className="contact__label">
-                  <p className="contact__text">Phone number</p>
+                  <p className="contact__text">Номер телефона</p>
                   <input
                     className="contact__input"
                     type="text"
                     name="phone"
-                    placeholder="Your phone number"
+                    placeholder="Ваш номер телефона"
                   />
                 </label>
                 <label className="contact__label">
-                  <p className="contact__text">Name of product</p>
+                  <p className="contact__text">Название продукта</p>
                   <input
                     className="contact__input"
                     type="text"
                     name="product"
-                    placeholder="Name of product"
+                    placeholder="Название продукта"
                   />
                 </label>
                 <label className="contact__label">
-                  <p className="contact__text">Name of product</p>
+                  <p className="contact__text">Название продукта</p>
                   <textarea
                     className="contact__textarea"
                     type="text"
                     name="message"
-                    placeholder="Say somthing about us"
+                    placeholder="Скажи что-нибудь о нас"
                   />
                 </label>
 
-                <button className="contact__btn">Send Message</button>
+                <button className="contact__btn">Отправить сообщение</button>
               </form>
             </div>
             <div className="contact__mapbox">
