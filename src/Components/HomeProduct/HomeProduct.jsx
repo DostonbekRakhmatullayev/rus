@@ -120,7 +120,6 @@ function HomeProduct() {
               <div className="hprod__textbox">
                 <h3 className="hprod__name">Качественные носки</h3>
                 <p className="hprod__text">Доступен для продажи</p>
-
                 <p className="hprod__price">
                   <b>Цена</b>: <strong>55,06₱ (RUB)</strong>
                 </p>
@@ -228,7 +227,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>38₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>28₱ (RUB)</strong>
                 </p>
               </div>
             </li>
@@ -254,7 +253,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>38₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>28₱ (RUB)</strong>
                 </p>
               </div>
             </li>
@@ -280,7 +279,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>38₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>28₱ (RUB)</strong>
                 </p>
               </div>
             </li>
@@ -306,7 +305,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>38₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>28₱ (RUB)</strong>
                 </p>
               </div>
             </li>
@@ -332,7 +331,7 @@ function HomeProduct() {
                 <p className="hprod__text">Доступен для продажи</p>
 
                 <p className="hprod__price">
-                  <b>Цена</b>: <strong>38₱ (RUB)</strong>
+                  <b>Цена</b>: <strong>28₱ (RUB)</strong>
                 </p>
               </div>
             </li>
